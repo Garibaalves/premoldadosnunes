@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Disallow admin pages
+Disallow: /admin/
+Disallow: /api/
+
+# Allow important pages
+Allow: /
+Allow: /institucional
+Allow: /produtos
+Allow: /qualidade
+Allow: /logistica
+Allow: /contato
+
+# Sitemap location
+Sitemap: https://premoldadosnunes.com.br/sitemap.xml
