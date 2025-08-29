@@ -1,6 +1,7 @@
 import { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
+  reactStrictMode: true,
   images: {
     remotePatterns: [
       {
@@ -11,12 +12,12 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  // Ignorar erros de TypeScript durante build
   typescript: {
+    // Ignora erros de TypeScript no build
     ignoreBuildErrors: true,
   },
-  // Ignorar erros de ESLint durante build
   eslint: {
+    // Ignora erros do ESLint no build
     ignoreDuringBuilds: true,
   },
 };
